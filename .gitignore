@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# LogSentry runtime files
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Stray folder created by an AI sandbox - not part of the project
+ingestion/mnt/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
